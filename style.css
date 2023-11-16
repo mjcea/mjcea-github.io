@@ -10,29 +10,39 @@ body {
 	height: 75vh;
 }
 
-img {
+.bio img {
     height: 500px;
     border-radius: 25px 0px 0px 25px;
-    border-right: 2px solid #b9ccb3;
-    position: absolute;
 }
 
-h1 {
-	font-weight: bold;
-    margin: 25px 0px 0px 380px;
+.bio h1{
+    left: 38%;
+    font-weight: bold;
     position: absolute;
+    font-size: x-large;
+    text-align: center;
+    color: #000000;
 }
 
-.foto {
-    height: 500px;
-    margin: -1px 0 0px 0px;
+.bio p {
+    width: 800px;
+    left: 38%;
+    text-align: justify;
+    position: absolute;
+    margin: 65px 0 0 0;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
 }
+
 
 .container {
+    background: linear-gradient(to right, #d3dbcf, #ffffff);
 	border-radius: 25px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	width: 1200px;
-    height: 498px;
+    height: 501px;
 	max-width: 100%;
     background-color: #c3cdc1;
     border: 1px solid #dad5d5;
