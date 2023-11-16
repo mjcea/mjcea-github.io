@@ -7,7 +7,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
-	height: 75vh;
+	height: 45vh;
 }
 
 a {
@@ -20,12 +20,12 @@ a {
 .container {
     background: linear-gradient(to right, #d3dbcf, #ffffff);
 	border-radius: 25px;
-  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
 	width: 750px;
     height: 300px;
 	max-width: 100%;
     background-color: #c3cdc1;
-    border: 1px solid #dad5d5;
+    /*border: 1px solid #dad5d5;*/
 }
 
 .bio img {
