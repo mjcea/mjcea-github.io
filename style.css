@@ -17,44 +17,41 @@ a {
 	margin: 15px 0;
 }
 
+.container {
+    background: linear-gradient(to right, #d3dbcf, #ffffff);
+	border-radius: 25px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	width: 750px;
+    height: 300px;
+	max-width: 100%;
+    background-color: #c3cdc1;
+    border: 1px solid #dad5d5;
+}
+
 .bio img {
-    height: 500px;
+    height: 300px;
     border-radius: 25px 0px 0px 25px;
     margin: 1px 0; 
 }
 
 .bio h1{
-    width: 400px;
-    left: 48%;
     font-weight: bold;
     position: absolute;
     font-size: x-large;
     text-align: center;
     color: #000000;
-    margin: 30px 0 0 0;
+    margin: 30px 0 0 250px;
 }
 
 .bio p {
-    width: 400px;
+    width: 500px;
     text-align: justify;
     position: absolute;
-    margin: 130px 0 0 400px;
+    margin: 100px 0 0 250px;
     font-size: 14px;
     font-weight: 100;
     line-height: 20px;
     letter-spacing: 0.5px;
-}
-
-
-.container {
-    background: linear-gradient(to right, #d3dbcf, #ffffff);
-	border-radius: 25px;
-  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	width: 850px;
-    height: 500px;
-	max-width: 100%;
-    background-color: #c3cdc1;
-    border: 1px solid #dad5d5;
 }
 
 .social {
