@@ -10,26 +10,35 @@ body {
 	height: 75vh;
 }
 
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
 .bio img {
     height: 500px;
     border-radius: 25px 0px 0px 25px;
+    margin: 1px 0; 
 }
 
 .bio h1{
-    left: 38%;
+    width: 400px;
+    left: 48%;
     font-weight: bold;
     position: absolute;
     font-size: x-large;
     text-align: center;
     color: #000000;
+    margin: 30px 0 0 0;
 }
 
 .bio p {
-    width: 800px;
-    left: 38%;
+    width: 400px;
     text-align: justify;
     position: absolute;
-    margin: 65px 0 0 0;
+    margin: 130px 0 0 400px;
     font-size: 14px;
     font-weight: 100;
     line-height: 20px;
@@ -41,9 +50,24 @@ body {
     background: linear-gradient(to right, #d3dbcf, #ffffff);
 	border-radius: 25px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	width: 1200px;
-    height: 501px;
+	width: 850px;
+    height: 500px;
 	max-width: 100%;
     background-color: #c3cdc1;
     border: 1px solid #dad5d5;
+}
+
+.social {
+    margin: 20px 0;
+}
+
+.social a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
 }
