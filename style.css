@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body {
-	background: #243B4A;
+	background: #364958;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,12 +11,17 @@ body {
 }
 
 #container {
-	margin-top: 2em;
+	margin-top: 3em;
 }
 
 .me {
-	margin-left: 5em;
+	margin-left: 17em;
 	float: left;
+	padding: 1em;
+	border: 1px solid #87BBA2;
+	border-radius: 30px;
+	background-color: #3B6064;
+	box-shadow: 0px 5px 50px #89909F;
 }
 
 .me img {
@@ -39,7 +44,7 @@ body {
 
 .social a {
     background-color: #ffffff;
-	border: 1px solid #6B4E71;
+	border: 1px solid #87BBA2;
 	border-radius: 50%;
 	display: inline-flex;
 	justify-content: center;
@@ -50,9 +55,9 @@ body {
 }
 
 #aboutme  {
-	margin-left: 3em;
+	margin-left: 5em;
 	float: left;
-	width: 75%;
+	width: 55%;
 }
 
 #aboutme  h1 {
