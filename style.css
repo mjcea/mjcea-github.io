@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body {
-	background: #364958;
+	background: #121212;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -18,10 +18,9 @@ body {
 	margin-left: 17em;
 	float: left;
 	padding: 1em;
-	border: 1px solid #87BBA2;
+	border: 1px solid #3a3a3b;
 	border-radius: 30px;
-	background-color: #3B6064;
-	box-shadow: 0px 5px 50px #89909F;
+	background-color: #1e1e1f;
 }
 
 .me img {
@@ -31,20 +30,21 @@ body {
 }
 
 .social {
+	margin: 1em 0 0 0;
+	text-align: center;
 	text-decoration: none;
-	color: #89909F;
+	color: #3a3a3b;
 	font-size: 20px;
-	margin: 15px 0 0 30px;
 	transition: background-color 300ms;
 }
 
 .social a:hover {
-	background-color: #243B4A;
+	background-color: #c0bfbf;
 }
 
 .social a {
     background-color: #ffffff;
-	border: 1px solid #87BBA2;
+	border: 1px solid #3a3a3b;
 	border-radius: 50%;
 	display: inline-flex;
 	justify-content: center;
@@ -55,7 +55,7 @@ body {
 }
 
 #aboutme  {
-	margin-left: 5em;
+	margin-left: 2em;
 	float: left;
 	width: 55%;
 }
