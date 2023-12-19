@@ -2,35 +2,33 @@
 
 body {
 	background: #243B4A;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
 }
 
-.container {
-	width: 100vh;
-	margin: 50px 0 0 0;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.me {	
-    float: left;
-	height: 20em;
+#container {
+	margin-top: 2em;
+}
+
+.me {
+	margin-left: 5em;
+	float: left;
 }
 
 .me img {
+	height: 20em;
 	box-shadow: 0 5px 0px #C2B2B4;
-    height: 100%;
     border-radius: 40px 0px 80px 45px;
-    margin: 0 50px 10px 5px;
 }
 
 .social {
 	text-decoration: none;
 	color: #89909F;
 	font-size: 20px;
-	width: 100%;
 	margin: 15px 0 0 30px;
 	transition: background-color 300ms;
 }
@@ -52,12 +50,12 @@ body {
 }
 
 #aboutme  {
-	display:inline;
-	background-color: #89909F;
+	margin-left: 3em;
+	float: left;
+	width: 75%;
 }
 
 #aboutme  h1 {
-    margin: 30px 0 0 0;
     font-weight: bold;
     font-size: 20px;
     color: #eeedee;
@@ -70,4 +68,6 @@ body {
 	text-align: justify;
     letter-spacing: 0.5px;
 	color: #c9cad1;
+
+	margin: 10px 0 0 0;
 }
