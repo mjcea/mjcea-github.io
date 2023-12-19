@@ -18,14 +18,14 @@ body {
 	margin-left: 17em;
 	float: left;
 	padding: 1em;
-	border: 1px solid #3a3a3b;
+	border: 1px solid #2F2F2F;
 	border-radius: 30px;
 	background-color: #1e1e1f;
 }
 
 .me img {
 	height: 20em;
-	box-shadow: 0 5px 0px #C2B2B4;
+	box-shadow: 0 5px 0px #3a3a3b;
     border-radius: 40px 0px 80px 45px;
 }
 
@@ -33,17 +33,17 @@ body {
 	margin: 1em 0 0 0;
 	text-align: center;
 	text-decoration: none;
-	color: #3a3a3b;
 	font-size: 20px;
 	transition: background-color 300ms;
 }
 
 .social a:hover {
-	background-color: #c0bfbf;
+	background-color: #3a3a3b;
 }
 
 .social a {
-    background-color: #ffffff;
+	color: #efcd6a;
+	background-color: #202022;
 	border: 1px solid #3a3a3b;
 	border-radius: 50%;
 	display: inline-flex;
@@ -54,6 +54,10 @@ body {
 	width: 40px;
 }
 
+
+
+
+
 #aboutme  {
 	margin-left: 2em;
 	float: left;
@@ -62,8 +66,8 @@ body {
 
 #aboutme  h1 {
     font-weight: bold;
-    font-size: 20px;
-    color: #eeedee;
+    font-size: 3em;
+    color: #efcd6a;
 }
 
 #aboutme p {
