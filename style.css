@@ -12,9 +12,11 @@ body {
 
 #container {
 	margin-top: 3em;
+	display: block;
 }
 
 .me {
+	margin-right: 2em;
 	margin-left: 17em;
 	float: left;
 	padding: 1em;
@@ -59,9 +61,9 @@ body {
 
 
 #aboutme  {
-	margin-left: 2em;
-	float: left;
-	width: 55%;
+	margin-left: 5em;
+	margin-bottom: 1em;
+	width: 75%;
 }
 
 #aboutme  h1 {
@@ -77,6 +79,22 @@ body {
 	text-align: justify;
     letter-spacing: 0.5px;
 	color: #c9cad1;
-
 	margin: 10px 0 0 0;
+}
+
+
+#education {
+	float: left;
+	width: 50%;
+	color: #9c9b9b;
+}
+
+#education h2 {
+	color: #f5f5f5;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+#education p {
+	margin-top: 0.2em;
 }
