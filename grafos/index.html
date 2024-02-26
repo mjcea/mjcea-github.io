@@ -31,9 +31,16 @@ function create () {
 }
 
 function randomGraph (n, m, charge) { //creates a random graph on n nodes and m links
-  var nodes = d3.range(n).map(Object),
+  // var nodes = d3.range(n).map(Object),
+  //    list  = randomChoose(unorderedPairs(d3.range(n)), m),
+  //   links = list.map(function (a) { return {source: a[0], target: a[1]} });
+
+  var nodes = d3.range(n).map(function(d) {
+    return { id: d, weight: Math.floor(Math.random() * 10) + 1 }; // assign random weight to each node
+  }),
       list  = randomChoose(unorderedPairs(d3.range(n)), m),
       links = list.map(function (a) { return {source: a[0], target: a[1]} });
+
 
   var force = d3.layout.force()
       .size([width, height])
