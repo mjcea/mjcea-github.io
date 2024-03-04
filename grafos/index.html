@@ -14,8 +14,8 @@
 
 var width = 1000, height = 900, colors = d3.scale.category10();
 
-var n = 10, // number of nodes
-    m = 12, // number of links
+var n = 7, // number of nodes
+    m = 4, // number of links
     charge = -1000;
 
 var svg = d3.select("body").append("svg")
@@ -54,7 +54,7 @@ function randomGraph (n, m, charge) {
   var svgNodes = svg.selectAll(".node").data(nodes)
       .enter().append("circle")
       .attr("class", "node")
-      .style("fill", "blue");
+      .style("fill", "green");
 
   svgNodes.transition().duration(10)
       .attr("r", 15)
